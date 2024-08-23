@@ -1,0 +1,13 @@
+Aula 22/08
+
+Data: 22/08/2024
+Continuação do aprofundamento sobre os conteúdos de POO, aplicando conceitos de DDD no projeto trabalhado em sala. Foi explorado a separação das responsabilidades em diferentes camadas,
+incluindo a camada de domínio. A partir principio de separação, se foi utilizado de uma DTO(Data Transfer Object) para evitar a exposição desse dominio trabalhado.
+Professor({required this.dto, required this.dao}) {
+  id = dto.id;
+  nome = dto.nome;
+  descricao = dto.descricao;
+  cpf = dto.cpf;
+  _status = dto.status;
+  CPF(cpf);
+}
